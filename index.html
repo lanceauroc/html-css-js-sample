@@ -10,9 +10,22 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="text-color">This is a sample page.</h1>      
+            <!-- default color is overridden by direct child selector -->
+            <h1 class="text-color">Direct child header</h1>      
         </div>
-        <h1>This header is not a direct child.</h1>
+        <div class="container">
+            <p>
+                Direct child paragraph element.
+            </p>
+            <h1>
+                Still a direct child header.
+            </h1>
+            <p>
+                Another text.
+            </p>
+        </div>
+        <!-- using container class on h1 for some reason -->
+        <h1 class="container">Non-child header</h1>
         <div class="container">
             <nav>
                 <ul>

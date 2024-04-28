@@ -13,8 +13,7 @@ body {
 }
 
 .container > h1 {
-    display: flex;
-    justify-content: center;
+    color: pink;    
 }
 
 .text-color {
@@ -26,11 +25,20 @@ body {
     .text-color {
         color: red;
     }
+
+    .container > h1 {
+        color: green;    
+    }
 }
 
 /* media query for small */
 @media (max-width: 480px) {
     .text-color {
         color: purple;
+    }
+
+    /* Stacks the elements on small screen */
+    .container {
+        flex-direction: column;
     }
 }
