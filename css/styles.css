@@ -1,3 +1,19 @@
-h1 {
+/* default styles*/
+
+.text-color {
     color: blue;
+}
+
+/* media query for mid-size */
+@media (max-width: 768px) {
+    .text-color {
+        color: red;
+    }
+}
+
+/* media query for small */
+@media (max-width: 480px) {
+    .text-color {
+        color: purple;
+    }
 }
