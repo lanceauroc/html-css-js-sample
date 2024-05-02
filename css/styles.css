@@ -118,3 +118,41 @@ nav .logo {
     bottom: 0; /* specifies how far the element is from the bottom */
 }
 
+/* animation */
+.header h1 span {
+    background: linear-gradient(#000, #000);
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 40%;
+}
+
+.header h1 span:first-child {
+    animation: textcolor1 5s linear infinite alternate; 
+}
+@keyframes textcolor1 {
+    0% {
+        background-size: 0%;
+    }
+    40% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 0%;
+    }
+}
+
+.header h1 span:last-child {
+    animation: textcolor2 5s linear infinite alternate;
+}
+@keyframes textcolor2 {
+    0% {
+        background-size: 100%;
+    }
+    40% {
+        background-size: 0%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
