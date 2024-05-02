@@ -124,6 +124,7 @@ nav .logo {
     background-repeat: no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; /* working, but research about the warning */
+    background-clip: text; /* this was added to resolve the warning above */
     background-size: 40%;
 }
 
@@ -214,6 +215,49 @@ nav .logo {
         position: relative;
         margin-top: 100px;
     }
+
+    .header-content {
+        position: absolute;
+        bottom: 0;
+        padding: 0 10%;
+        z-index: 2;
+        padding-bottom: 40px;
+        background: linear-gradient(transparent, #fff);
+    }
+
+    .btn-container {
+        margin: 5px 0;
+    }
+    
+    .header button {
+        font-size: 14px;
+        margin-right: 1px;
+    }
+
+    .btn-dark {
+        padding: 7px 7px 7px 20px;
+        margin-bottom: 10px;
+    }
+
+    .btn-dark img {
+        width: 30px;
+        padding: 5px;
+        margin-left: 15px;
+    }
+
+    .btn-light img {
+        width: 12px;
+        margin-left: 5px;
+    }
+
+    .header h1 {
+        font-size: 70px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
 }
+
+
 
 
