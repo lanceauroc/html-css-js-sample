@@ -42,3 +42,16 @@ nav .logo {
     border-radius: 40px;
     cursor: pointer;
 }
+
+/* selects the img element nested within nav-btn(parent) */
+.nav-btn img {
+    width: 16px;
+    margin-left: 8px;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#ffddf8 0%, #f0c7be 49%, #bbf5b9 100%);
+    padding: 0 10%;
+}
