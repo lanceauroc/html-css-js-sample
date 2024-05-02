@@ -109,3 +109,12 @@ nav .logo {
     max-width: 360px;
     font-weight: 500;
 }
+
+.user-img {
+    width: 28%;
+    max-width: 500px;
+    position: absolute;
+    right: 9%;
+    bottom: 0; /* specifies how far the element is from the bottom */
+}
+
