@@ -201,3 +201,19 @@ nav .logo {
 }
 
 /* media queries for header */
+
+@media only screen and (max-width: 600px) {
+    .header {
+        min-height: auto;
+        padding: 0;
+    }
+
+    .user-img {
+        width: 100%;
+        right: auto;
+        position: relative;
+        margin-top: 100px;
+    }
+}
+
+
