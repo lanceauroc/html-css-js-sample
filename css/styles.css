@@ -104,3 +104,8 @@ nav .logo {
     width: 20px;
     margin-left: 10px;
 }
+
+.header p {
+    max-width: 360px;
+    font-weight: 500;
+}
