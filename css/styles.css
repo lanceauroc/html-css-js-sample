@@ -54,4 +54,28 @@ nav .logo {
     min-height: 100vh;
     background: linear-gradient(#ffddf8 0%, #f0c7be 49%, #bbf5b9 100%);
     padding: 0 10%;
+    /* Entering realm of Flex: Be mindful of how it affects relationships between elements */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin-top: 100px;
+    font-size: 13vw;
+    line-height: 11vw;
+}
+
+.btn-container {
+    margin: 20px 0;
+}
+
+.header button {
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
 }
